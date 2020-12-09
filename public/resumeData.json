@@ -1,0 +1,208 @@
+{
+  "main": {
+    "name": "Aleksa Mitic",
+    "occupation": " Freelance Web developer  && English Teacher at iTutor",
+    "description": "Graduate Engineer of Engineering Management",
+    "image": "images/aleksa.jpg",
+    "backgroundImg":"images/background-image.jpg",
+    "bio": "Since being introduced to programming by a close friend I have read through as much material one can possibly go through,took a good amount of Udemy courses, and also enrolled into a government backed course classes at Faculty Of Electronic Engineering in Nis as a part of Junior Developer program. From the moment I created Hello World in the console of my first application, I knew I was hooked onto software development. But software development has never been just a job for me, it's offered an engaging challenge to continually learn and improve my skills in creating high-quality software. What started with a simple Hello World has become a full-fledged passion that only gets more exciting as time goes by. ",
+    "contactmessage": "Get in touch with me to receive further details about me.",
+    "email": "aleksa.mitic5859@gmail.com",
+    "phone": "+381652854216",
+    "address": {
+      "street": "Belopalanacka 30",
+      "city": "Nis",
+      "state": "Serbia",
+      "zip": "18000"
+    },
+    "website": "",
+    "resumedownload": "https://cvdesignr.com/p/5e12805cf121f?hl=en_GB",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/alexa.mitic/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/aleksa-miticw/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/mitic_aleksa/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/alexomon018",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "I'm a tinkerer and am always interested in playing around with new technologies but these are the ones that have really won me over",
+    "education": [
+      {
+        "school": "University of Nis",
+        "degree": "Production and Information Technologiest",
+        "graduated": "Present",
+        "description": "The main goal of the study program of the master's academic studies in Production and Information Technology is to acquire knowledge that is competent to cover the needs in the industry for work on jobs that simultaneously require the application of mechanical engineering and informatics. This knowledge includes the integration of the application of computers and modern software packages, sensors and actuators, analog and digital control systems and their implementation in production systems."
+      },
+      {
+        "school": "University of Nis",
+        "degree": "Bachelor in Engineering Management",
+        "graduated": "November 2019",
+        "description": "The field of study, Engineering Management, is exceptional in that it lies at the interface between engineering and business, it contains elements of both as well as subjects unique to its own area of study. In practice, it combines the engineer’s technical problem-solving ability with business acumen and skills."
+      },
+      {
+        "school": "University of Nis",
+        "degree": ".NET Developer",
+        "graduated": "December 2019",
+        "description": "Government backed course classes at Faculty Of Electronic Engineering in Nis as a part of Junior Developer program. The program contained five modules, first one was solving algorithmic problems where I was introduced for the first time with basic programming concepts and creating simple console applications. The next module was introduction to advanced C# and Object-oriented programming paradigm, where I created a small application using Objects, Classes. Inheritance, Abstraction, and Polymorphism. The third module I liked the most, I was here introduced to JS and I simply fall in love with it. We created a simple website using HTML, CSS, JS, and also AJAX after that we converted it to the ASP.NET MVC framework. Forth module was a database, I learned here almost everything about SQL from how to create relations to writing complicated queries. In the last module, I was introduced to agile methodology, I learned about SCRUM, Kanban, and lean methodology."
+      }
+    ],
+    "work": [
+      {
+        "company": "iTutor Group",
+        "title": "Consultant",
+        "years": "March 2020 - Present",
+        "description": "Teaching kids and adults English Language, providing guidance to a school's teaching faculty on curriculum, teaching styles and recommending resources and textbooks."
+      },
+      {
+        "company": "HTEC GROUP",
+        "title": "Internship",
+        "years": "December 2019 - January 2020",
+        "description": "Working on a vanilla JS  E-commerce project where I learned the basics of this language and got a feeling of working in a  Business Environment. It was a valuable experience for me during these four weeks I got clear feedback on my knowledge that helped me how to focus and how to improve my skills continually."
+      },
+      {
+        "company": "Depot Market Edgartown, United States",
+        "title": "Sales assistant",
+        "years": "May 2017 - November 2017",
+        "description": " Assisting customers with purchases and handling merchandising. Responsible for doing paperwork, placing orders, preparing sales reports, and assisting with inventories. I have also maintained and reconcile accounts, create invoices, and send checks."
+      },
+      {
+        "company": "Aik Bank",
+        "title": "Archivist",
+        "years": "March 2016 - May 2016",
+        "description": "Being a part of digitalization using Microsoft Excel. It allowed bank to respond more quickly to customer and client needs, to have better knowledge of the status of their financial assets, and allowed a banker to service more clients with less work."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "80%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "Git",
+        "level": "80%"
+      },
+      {
+        "name": "C#",
+        "level": "70%"
+      },
+      {
+        "name": "HTML5",
+        "level": "90%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "90%"
+      },
+      {
+        "name": "SQL",
+        "level": "95%"
+      },
+      {
+        "name": "ExpressJS",
+        "level": "80%"
+      },
+      {
+        "name": "EJS",
+        "level": "90%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "MERN Stack WhatsApp Clone",
+        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "whatsapp-clone.jpg",
+        "url": "https://github.com/alexomon018/Whatsapp-FullStack"
+      },
+      {
+        "title": "Covid Tracker",
+        "category": "COVID-19 Tracker with React JS (React Hooks and Material UI)",
+        "image": "covid-tracker.jpg",
+        "url": "https://github.com/alexomon018/Covid-Tracker"
+      },
+      {
+        "title": "Keeper Clone with React",
+        "category": "Google Keeper Clone built with ReactJS",
+        "image": "keeper-app.jpg",
+        "url": "https://github.com/alexomon018/Keeper-app"
+      },
+      {
+        "title": "Zoom Clone",
+        "category": "Zoom Clone built with Node JS",
+        "image": "zoom-clone.jpg",
+        "url": "https://github.com/alexomon018/ZoomApp"
+      },
+      {
+        "title": "Blog Site",
+        "category": "Blog website backed with express.js and ejs",
+        "image": "blog-website.jpg",
+        "url": "https://github.com/alexomon018/Blog-v1"
+      },
+      {
+        "title": "TodoList",
+        "category": "TodoList website backed with express.js and ejs",
+        "image": "todolist-app.jpg",
+        "url": "https://github.com/alexomon018/TodoList-version1"
+      },
+      {
+        "title": "Amazon Clone",
+        "category": "Amazon Clone made with React on the frontend,on the backend used express.js also has stripe payment method",
+        "image": "amazon-clone.jpg",
+        "url": "https://clone-45f1e.web.app"
+      },
+      {
+        "title": "Secrets App",
+        "category": "Using Authentication to make Secrets App with OAuth and passport.js",
+        "image": "secrets-app2.jpg",
+        "url": "https://github.com/alexomon018/Authentication"
+      },
+      {
+        "title": "Airbnb Clone",
+        "category": "Using react-router and react-date-picker to make frontend booking site",
+        "image": "airbnb-clone.jpg",
+        "url": "https://github.com/alexomon018/Airbnb-Clone"
+      },
+      {
+        "title": "Agro Earth",
+        "category": "Making web application about farm managment for a start-up",
+        "image": "agro.jpg",
+        "url": "https://github.com/alexomon018"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Aleksa is the most dedicated person I have ever met he has finished his bachelor studies and in the same time he finished government backed course as one of the best students!",
+        "user": "Sasa Randjelovic"
+      },
+      {
+        "text": "Aleksa's success in our courses should encourage him to continue to actively seek engagement in the IT industry, He has shown an amazing talent and will to become a software developer!",
+        "user": "Oliver M. Vojinovic"
+      }
+    ]
+  }
+ 
+   
+}

@@ -1,0 +1,35 @@
+.portfolio__item__wrapper {
+  position: relative;
+}
+.portfolio__img__background {
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img__text__wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.logo__wrapper > img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.img__text__wrapper .subtitle {
+  font-weight: 600;
+  transition: 1s;
+  color: transparent;
+}
+.img__text__wrapper:hover .subtitle {
+  font-weight: 600;
+  color: white;
+}
