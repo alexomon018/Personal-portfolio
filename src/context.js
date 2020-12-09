@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from 'react'
+import React, { useContext } from 'react'
 import useFetch from './useFetch'
 const AppContext = React.createContext()
 
@@ -11,6 +11,7 @@ const AppProvider = ({ children }) => {
         isLoading,
         data,
         savedData,
+        error,
       }}
     >
       {children}

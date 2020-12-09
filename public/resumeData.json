@@ -91,39 +91,49 @@
     "skills": [
       {
         "name": "ReactJs",
-        "level": "80%"
+        "level": "80%",
+        "category":"Front"
+        
       },
       {
         "name": "CSS",
-        "level": "90%"
+        "level": "90%",
+        "category":"Front"
       },
       {
         "name": "Git",
-        "level": "80%"
+        "level": "80%",
+        "category":"Front"
       },
       {
         "name": "C#",
-        "level": "70%"
+        "level": "70%",
+        "category":"Front"
       },
       {
         "name": "HTML5",
-        "level": "90%"
+        "level": "90%",
+        "category":"Front"
       },
       {
         "name": "MongoDB",
-        "level": "90%"
+        "level": "90%",
+        "category":"Back"
       },
       {
         "name": "SQL",
-        "level": "95%"
+        "level": "95%",
+        "category":"Back"
       },
       {
         "name": "ExpressJS",
-        "level": "80%"
+        "level": "80%",
+        "category":"Back"
       },
       {
         "name": "EJS",
-        "level": "90%"
+        "level": "90%",
+        "category":"Back"
       }
     ]
   },

@@ -46,6 +46,12 @@
 .value__80 {
   width: 80%;
 }
+.value__90 {
+  width: 90%;
+}
+.value__95 {
+  width: 95%;
+}
 .skill__text {
   position: absolute;
   top: -2rem;
@@ -58,6 +64,9 @@
 }
 .skill__text__80 {
   left: 80%;
+}
+.skill__text__90 {
+  left: 90%;
 }
 @media screen and (min-width: 768px) {
   .skills__center {

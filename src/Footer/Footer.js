@@ -9,7 +9,6 @@ import { useGlobalContext } from '../context'
 
 function Footer() {
   const {
-    data,
     savedData: {
       main: { social },
     },
@@ -69,14 +68,14 @@ function Footer() {
               >
                 <FaGithub size='2em' />
               </a>
-              <Link
+              <a
                 className='social__icon__link'
                 href={`${social[1].url}`}
                 target='_blank'
                 aria-label='LinkedIn'
               >
                 <FaLinkedin size='2em' />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
