@@ -12,9 +12,6 @@
   max-width: 1170px;
 }
 
-.about__title .underline {
-  margin-left: 0;
-}
 .about__center {
   display: grid;
   gap: 3rem 2rem;

@@ -7,7 +7,7 @@ function TimelineItem({ expItem }) {
       <h3>{expItem.degree || expItem.company}</h3>
       <p>{expItem.description}</p>
       <h5>{expItem.school || expItem.title}</h5>
-      <span className='number'>3</span>
+      <span className='number'></span>
     </article>
   )
 }

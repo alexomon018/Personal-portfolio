@@ -20,7 +20,6 @@ function About() {
               <h2>About</h2>
               <div className='underline'></div>
             </div>
-
             <p>{main.bio}</p>
           </article>
         </div>

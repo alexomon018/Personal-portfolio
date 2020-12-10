@@ -12,23 +12,48 @@ h1,
 h2,
 h3,
 h4 {
-  letter-spacing: 0.25rem;
+  letter-spacing: 4px;
   text-transform: capitalize;
   line-height: 1.25;
-  margin-bottom: 0.75rem;
+  margin-bottom: 12px;
   font-family: 'Roboto', sans-serif;
 }
 h1 {
-  font-size: 3rem;
+  font-size: 48px;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 32px;
 }
 h3 {
-  font-size: 1.25rem;
+  font-size: 20px;
 }
 h4 {
-  font-size: 0.875rem;
+  font-size: 14px;
+}
+.btn {
+  text-transform: uppercase;
+  background: hsl(42, 78%, 60%);
+  color: hsl(43, 86%, 17%);
+  padding: 6px 12px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  font-weight: 700;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 14px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-decoration: none;
+}
+.underline {
+  width: 80px;
+  height: 4px;
+  margin-bottom: 20x;
+  background: hsl(42, 78%, 60%);
+  margin-left: auto;
+  margin-right: auto;
 }
 p {
   margin-bottom: 1.25rem;
@@ -36,19 +61,19 @@ p {
 }
 @media screen and (min-width: 800px) {
   h1 {
-    font-size: 4rem;
+    font-size: 64px;
   }
   h2 {
-    font-size: 2.5rem;
+    font-size: 40px;
   }
   h3 {
-    font-size: 1.75rem;
+    font-size: 28px;
   }
   h4 {
-    font-size: 1rem;
+    font-size: 16px;
   }
   body {
-    font-size: 1rem;
+    font-size: 16px;
   }
   h1,
   h2,

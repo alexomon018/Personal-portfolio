@@ -142,61 +142,67 @@
       {
         "title": "MERN Stack WhatsApp Clone",
         "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "whatsapp-clone.jpg",
+        "image": "images/portfolio/whatsapp-clone.jpg",
         "url": "https://github.com/alexomon018/Whatsapp-FullStack"
       },
       {
         "title": "Covid Tracker",
         "category": "COVID-19 Tracker with React JS (React Hooks and Material UI)",
-        "image": "covid-tracker.jpg",
+        "image": "images/portfolio/covid-tracker.jpg",
         "url": "https://github.com/alexomon018/Covid-Tracker"
       },
       {
         "title": "Keeper Clone with React",
         "category": "Google Keeper Clone built with ReactJS",
-        "image": "keeper-app.jpg",
+        "image": "images/portfolio/keeper-app.jpg",
         "url": "https://github.com/alexomon018/Keeper-app"
       },
       {
         "title": "Zoom Clone",
         "category": "Zoom Clone built with Node JS",
-        "image": "zoom-clone.jpg",
+        "image": "images/portfolio/zoom-clone.jpg",
         "url": "https://github.com/alexomon018/ZoomApp"
       },
       {
         "title": "Blog Site",
         "category": "Blog website backed with express.js and ejs",
-        "image": "blog-website.jpg",
+        "image": "images/portfolio/blog-website.jpg",
         "url": "https://github.com/alexomon018/Blog-v1"
       },
       {
         "title": "TodoList",
         "category": "TodoList website backed with express.js and ejs",
-        "image": "todolist-app.jpg",
+        "image": "images/portfolio/todolist-app.jpg",
         "url": "https://github.com/alexomon018/TodoList-version1"
       },
       {
         "title": "Amazon Clone",
         "category": "Amazon Clone made with React on the frontend,on the backend used express.js also has stripe payment method",
-        "image": "amazon-clone.jpg",
+        "image": "images/portfolio/amazon-clone.jpg",
         "url": "https://clone-45f1e.web.app"
       },
       {
         "title": "Secrets App",
         "category": "Using Authentication to make Secrets App with OAuth and passport.js",
-        "image": "secrets-app2.jpg",
+        "image": "images/portfolio/secrets-app2.jpg",
         "url": "https://github.com/alexomon018/Authentication"
       },
       {
         "title": "Airbnb Clone",
-        "category": "Using react-router and react-date-picker to make frontend booking site",
-        "image": "airbnb-clone.jpg",
+        "category": "Using react-router and react-date-picker to make frontend booking application like airbnb.com",
+        "image": "images/portfolio/airbnb-clone.jpg",
         "url": "https://github.com/alexomon018/Airbnb-Clone"
       },
       {
         "title": "Agro Earth",
-        "category": "Making web application about farm managment for a start-up",
-        "image": "agro.jpg",
+        "category": "Making web application about farm management for a start-up",
+        "image": "images/portfolio/agro.jpg",
+        "url": "https://github.com/alexomon018"
+      },
+      {
+        "title": "Baggy Shop",
+        "category": "Working on a full-stack MERN web application with full e-commerce functionality and my first time encounter with redux state management",
+        "image": "images/portfolio/baggy-shop.jpg",
         "url": "https://github.com/alexomon018"
       }
     ]
