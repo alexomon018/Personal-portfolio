@@ -1,10 +1,8 @@
 import React from 'react'
 import './Projects.css'
-import { useGlobalContext } from '../context'
+import { FaGithub } from 'react-icons/fa'
+import { Button } from '../Button/Button'
 function Project({ project }) {
-  const {
-    savedData: { main },
-  } = useGlobalContext()
   const { title, category, image, url } = project
   return (
     <div className='card'>
@@ -13,17 +11,14 @@ function Project({ project }) {
         <div className='card__info'>
           <h4>{title}</h4>
           <p>{category}</p>
-          <div className='card__footer'>
-            <img src={main.image} alt='author image' />
-            <p>7 min read</p>
-          </div>
         </div>
       </div>
 
       <div className='card__side card__back'>
-        <a href={url} className='btn'>
-          {' '}
-          Look Up
+        <a href={`${url}`}>
+          <Button buttonSize='btn__link' buttonColor='red'>
+            <FaGithub size='2em' />
+          </Button>
         </a>
       </div>
     </div>

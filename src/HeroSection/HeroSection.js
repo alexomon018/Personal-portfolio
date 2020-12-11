@@ -48,11 +48,19 @@ function HeroSection({
                 >
                   {description}
                 </p>
-                <Link to={`${buttonLink}`}>
-                  <Button buttonSize='btn--wide' buttonColor='blue'>
-                    {buttonLabel}
-                  </Button>
-                </Link>
+                {buttonLink.includes('cv') ? (
+                  <a href={`${buttonLink}`}>
+                    <Button buttonSize='btn__wide' buttonColor='blue'>
+                      {buttonLabel}
+                    </Button>
+                  </a>
+                ) : (
+                  <Link to={`${buttonLink}`}>
+                    <Button buttonSize='btn__wide' buttonColor='blue'>
+                      {buttonLabel}
+                    </Button>
+                  </Link>
+                )}
               </div>
             </div>
             <div className='col'>

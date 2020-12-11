@@ -11,13 +11,13 @@
   white-space: nowrap;
 }
 
-.btn--primary {
+.btn__primary {
   background-color: var(--primary);
   color: #242424;
   border: 1px solid var(--primary);
 }
 
-.btn--outline {
+.btn__outline {
   background-color: transparent;
   color: #fff;
   padding: 8px 20px;
@@ -25,17 +25,17 @@
   transition: all 0.3s ease-out;
 }
 
-.btn--medium {
+.btn__medium {
   padding: 8px 20px;
   font-size: 18px;
 }
 
-.btn--large {
+.btn__large {
   padding: 12px 26px;
   font-size: 20px;
 }
 
-.btn--mobile {
+.btn__mobile {
   text-align: center;
   border-radius: 4px;
   width: 80%;
@@ -48,26 +48,26 @@
   transition: all 0.3s ease-out;
 }
 
-.btn--wide {
+.btn__wide {
   padding: 12px 64px;
   font-size: 20px;
 }
 
-.btn--large:hover,
-.btn--medium:hover,
-.btn--mobile:hover {
+.btn__large:hover,
+.btn__medium:hover,
+.btn__mobile:hover {
   transition: all 0.3s ease-out;
   background: #fff;
   color: #242424;
 }
 
-.btn--wide:hover {
+.btn__wide:hover {
   color: #fff;
   background-color: #f00946;
   transition: all 0.2s ease-out;
 }
 
-.btn-link {
+.btn__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,7 +110,7 @@
 .green:hover {
   background-color: #242424;
 }
-.btn-link {
+.btn__link {
   display: flex;
   justify-content: center;
   align-items: center;

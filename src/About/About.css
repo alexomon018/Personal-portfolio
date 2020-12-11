@@ -4,6 +4,8 @@
 .about__title {
   text-align: left;
   margin-bottom: 2rem;
+}
+.about__title > h2 {
   color: white;
 }
 .section__center {

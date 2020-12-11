@@ -6,6 +6,7 @@ import Home from './Home/Home'
 import About from './About/About'
 import { Switch, Route, Router } from 'react-router-dom'
 import Projects from './Projcets/Projects'
+import Contact from './Contact/Contact'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/about' exact component={About} />
         <Route path='/projects' exact component={Projects} />
+        <Route path='/contact' exact component={Contact} />
       </Switch>
       <Footer />
     </div>

@@ -1,7 +1,6 @@
 import React from 'react'
 import './Skills.css'
 function Skill({ skill }) {
-  console.log(skill)
   return (
     <div className='skill'>
       <p>{skill.name}</p>

@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import { Button } from '../Button/Button'
 import { Link } from 'react-router-dom'
 import { IconContext } from 'react-icons/lib'
 import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'
@@ -16,24 +15,6 @@ function Footer() {
   return (
     <IconContext.Provider value={{ color: '#fff' }}>
       <div className='footer__container'>
-        <div className='footer__subscription'>
-          <p className='footer__subscription__heading'>Leave your email!</p>
-          <p className='footer__subscription__text'>
-            Get too see the lastest projects that I worked on!
-          </p>
-          <div className='input__areas'>
-            <form>
-              <input
-                className='footer__input'
-                name='email'
-                type='email'
-                placeholder='Your Email'
-              />
-              <Button buttonStyle='btn__outline'>Subscribe</Button>
-            </form>
-          </div>
-        </div>
-
         <div className='social__media'>
           <div className='social__media__wrap'>
             <div className='footer__logo'>
@@ -42,7 +23,9 @@ function Footer() {
                 ALEKSA MITIC
               </Link>
             </div>
-            <small className='website__rights'>ALEKSA MITIC © 2020</small>
+            <small className='website__rights'>
+              ALEKSA MITIC © {new Date().getFullYear()}
+            </small>
             <div className='social__icons'>
               <a
                 className='social__icon__link'

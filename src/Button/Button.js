@@ -1,9 +1,9 @@
 import React from 'react'
 import './Button.css'
 
-const STYLES = ['btn--primary', 'btn--outline']
+const STYLES = ['btn__primary', 'btn__outline']
 
-const SIZES = ['btn--medium', 'btn--large', 'btn--mobile', 'btn--wide']
+const SIZES = ['btn__medium', 'btn__large', 'btn__mobile', 'btn__wide']
 
 const COLOR = ['primary', 'blue', 'red', 'green']
 

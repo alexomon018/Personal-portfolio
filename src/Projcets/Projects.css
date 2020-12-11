@@ -1,9 +1,11 @@
 .section__projects {
   background-color: #0e1112;
 }
-.section__title {
+.section__projects__title {
   margin-bottom: 64px;
   text-align: center;
+}
+.section__projects__title > h2 {
   color: white;
 }
 .section__center {
@@ -63,25 +65,4 @@
   object-fit: cover;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-}
-.card__footer {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  -webkit-box-align: center;
-  align-items: center;
-  margin-top: 70px;
-}
-.card__footer img {
-  width: 32px;
-  height: 32px;
-  -o-object-fit: cover;
-  object-fit: cover;
-  border-radius: 50%;
-}
-.card__footer p {
-  margin-bottom: 0;
-  text-transform: uppercase;
-  justify-self: end;
-  color: black;
-  font-size: 13.5px;
 }

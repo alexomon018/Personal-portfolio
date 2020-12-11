@@ -10,7 +10,7 @@ function Projects(props) {
   } = useGlobalContext()
   return (
     <section className='section__projects'>
-      <div className='section__title'>
+      <div className='section__projects__title'>
         <h2>Projects</h2>
         <div className='underline'></div>
       </div>
