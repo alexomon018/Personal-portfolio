@@ -4,14 +4,8 @@ import { Link } from 'react-router-dom'
 import { IconContext } from 'react-icons/lib'
 import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'
 import { MdDeveloperMode } from 'react-icons/md'
-import { useGlobalContext } from '../context'
 
 function Footer() {
-  const {
-    savedData: { main },
-  } = useGlobalContext()
-  const { social } = main
-
   return (
     <IconContext.Provider value={{ color: '#fff' }}>
       <div className='footer__container'>
@@ -29,7 +23,7 @@ function Footer() {
             <div className='social__icons'>
               <a
                 className='social__icon__link'
-                href={`${social[0].url}`}
+                href='https://www.facebook.com/alexa.mitic/'
                 target='_blank'
                 aria-label='Facebook'
               >
@@ -37,7 +31,7 @@ function Footer() {
               </a>
               <a
                 className='social__icon__link'
-                href={`${social[2].url}`}
+                href='https://www.instagram.com/mitic_aleksa/'
                 target='_blank'
                 aria-label='Instagram'
               >
@@ -45,7 +39,7 @@ function Footer() {
               </a>
               <a
                 className='social__icon__link'
-                href={`${social[3].url}`}
+                href='https://github.com/alexomon018'
                 target='_blank'
                 aria-label='GitHub'
               >
@@ -53,7 +47,7 @@ function Footer() {
               </a>
               <a
                 className='social__icon__link'
-                href={`${social[1].url}`}
+                href='https://www.linkedin.com/in/aleksa-miticw/'
                 target='_blank'
                 aria-label='LinkedIn'
               >
