@@ -3,16 +3,19 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import { BrowserRouter as Router } from 'react-router-dom'
+import { HelmetProvider } from 'react-helmet-async'
 import { AppProvider } from './context'
 import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppProvider>
-      <Router>
-        <App />
-      </Router>
-    </AppProvider>
+    <HelmetProvider>
+      <AppProvider>
+        <Router>
+          <App />
+        </Router>
+      </AppProvider>
+    </HelmetProvider>
   </React.StrictMode>,
   document.getElementById('root')
 )

@@ -7,7 +7,6 @@ function Contact() {
   const {
     savedData: { main },
   } = useGlobalContext()
-  console.log(main)
   return (
     <>
       <Meta title='Aleksa Mitic | Contact' />

@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './App.css'
 import Header from './Header/Header'
 import Footer from './Footer/Footer'
 import Home from './Home/Home'
 import About from './About/About'
-import { Switch, Route, Router, Redirect } from 'react-router-dom'
+import { Switch, Route, Redirect } from 'react-router-dom'
 import Projects from './Projcets/Projects'
 import Contact from './Contact/Contact'
 

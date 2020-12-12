@@ -9,7 +9,6 @@ function Timline(props) {
     },
   } = useGlobalContext()
   const experience = [...education, ...work]
-  console.log(experience)
   return (
     <section className='section__timeline'>
       <div className='section__title__timeline'>
