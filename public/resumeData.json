@@ -139,65 +139,71 @@
   },
   "portfolio": {
     "projects": [
-      {
-        "title": "MERN Stack WhatsApp Clone",
-        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "images/portfolio/whatsapp-clone.jpg",
-        "url": "https://github.com/alexomon018/Whatsapp-FullStack"
+       {
+        "title": "Baggy Shop",
+        "category": "Working on a full-stack MERN web application with full e-commerce functionality and my first time encounter with redux state management",
+        "image": "images/portfolio/baggy-shop.jpg",
+        "githubUrl": "https://github.com/alexomon018",
+        "url": "https://baggyshopapp.herokuapp.com/"
       },
       {
         "title": "Covid Tracker",
         "category": "COVID-19 Tracker with React JS (React Hooks and Material UI). Also I have used char.js for the charts",
         "image": "images/portfolio/covid-tracker.jpg",
-        "url": "https://github.com/alexomon018/Covid-Tracker"
+        "githubUrl": "https://github.com/alexomon018/Covid-Tracker",
+        "url":"https://covid-numbers.netlify.app/"
+      },
+      {
+        "title": "MERN Stack WhatsApp Clone",
+        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "images/portfolio/whatsapp-clone.jpg",
+        "githubUrl": "https://github.com/alexomon018/Whatsapp-FullStack"
+      },
+         {
+        "title": "Amazon Clone",
+        "category": "Amazon Clone made with React on the frontend,on the backend used express.js also has stripe payment method.",
+        "image": "images/portfolio/amazon-clone.jpg",
+        "githubUrl": "",
+        "url": "https://clone-45f1e.web.app"
+      },
+      
+      {
+        "title": "Airbnb Clone",
+        "category": "Using react-router and react-date-picker to make frontend booking application like airbnb.com",
+        "image": "images/portfolio/airbnb-clone.jpg",
+        "githubUrl": "https://github.com/alexomon018/Airbnb-Clone",
+        "url": "https://airbnbsite.netlify.app/"
       },
       {
         "title": "Keeper Clone with React",
         "category": "This is the first project that I have ever done in React as a part of a Web Development Course that I have took. Simple Google Keeper Clone built with ReactJS",
         "image": "images/portfolio/keeper-app.jpg",
-        "url": "https://github.com/alexomon018/Keeper-app"
+        "githubUrl": "https://github.com/alexomon018/Keeper-app"
       },
       {
         "title": "Zoom Clone",
         "category": "It uses uuid to make new links so if user want to communicate he/she can send that unique link to ones whom to communicate. It makes separate rooms on the basis of unique links.",
         "image": "images/portfolio/zoom-clone.jpg",
-        "url": "https://github.com/alexomon018/ZoomApp"
+        "githubUrl": "https://github.com/alexomon018/ZoomApp"
       },
       {
         "title": "Blog Site",
         "category": "First project where I have created backend for my application, Blog website backed with express.js and ejs",
         "image": "images/portfolio/blog-website.jpg",
-        "url": "https://github.com/alexomon018/Blog-v1"
+        "githubUrl": "https://github.com/alexomon018/Blog-v1"
       },
       {
         "title": "TodoList",
         "category": "TodoList website backed with express.js and ejs",
         "image": "images/portfolio/todolist-app.jpg",
-        "url": "https://github.com/alexomon018/TodoList-version1"
+        "githubUrl": "https://github.com/alexomon018/TodoList-version1"
       },
-      {
-        "title": "Amazon Clone",
-        "category": "Amazon Clone made with React on the frontend,on the backend used express.js also has stripe payment method.",
-        "image": "images/portfolio/amazon-clone.jpg",
-        "url": "https://clone-45f1e.web.app"
-      },
+   
       {
         "title": "Secrets App",
         "category": "Using Authentication to make Secrets App with OAuth and passport.js",
         "image": "images/portfolio/secrets-app2.jpg",
-        "url": "https://github.com/alexomon018/Authentication"
-      },
-      {
-        "title": "Airbnb Clone",
-        "category": "Using react-router and react-date-picker to make frontend booking application like airbnb.com",
-        "image": "images/portfolio/airbnb-clone.jpg",
-        "url": "https://github.com/alexomon018/Airbnb-Clone"
-      },
-      {
-        "title": "Baggy Shop",
-        "category": "Working on a full-stack MERN web application with full e-commerce functionality and my first time encounter with redux state management",
-        "image": "images/portfolio/baggy-shop.jpg",
-        "url": "https://github.com/alexomon018"
+        "githubUrl": "https://github.com/alexomon018/Authentication"
       }
     ]
   },

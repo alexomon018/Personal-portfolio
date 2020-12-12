@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import Meta from '../Meta/Meta'
 import { useGlobalContext } from '../context'
 import Skills from '../Skills/Skills'
 import Timeline from '../Timeline/Timeline'
@@ -9,6 +10,7 @@ function About() {
   } = useGlobalContext()
   return (
     <>
+      <Meta title='Aleksa Mitic | About' />
       <section className='section__about'>
         <div className='section__center about__center'>
           <article className='about__img'>

@@ -4,6 +4,16 @@
   text-align: center;
   font-size: 20px;
 }
+.section__title > p {
+  color: white;
+}
+.section__title__icons {
+  display: flex;
+  justify-content: center;
+}
+.section__title__icons > svg {
+  margin: 0 25px 0 25px;
+}
 .section__center {
   width: 90vw;
   margin: 0 auto;
@@ -75,5 +85,17 @@
     -webkit-column-gap: 2rem;
     -moz-column-gap: 2rem;
     column-gap: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .skills__center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 2rem;
+    -moz-column-gap: 2rem;
+    column-gap: 2rem;
+  }
+  .section__title__icons > svg {
+    margin: 0;
   }
 }

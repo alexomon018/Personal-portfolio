@@ -1,9 +1,10 @@
 import React from 'react'
 import './Projects.css'
 import { FaGithub } from 'react-icons/fa'
+import { CgScreen } from 'react-icons/cg'
 import { Button } from '../Button/Button'
 function Project({ project }) {
-  const { title, category, image, url } = project
+  const { title, category, image, githubUrl, url } = project
   return (
     <div className='card'>
       <div className='card__side card__front'>
@@ -15,11 +16,18 @@ function Project({ project }) {
       </div>
 
       <div className='card__side card__back'>
-        <a href={`${url}`}>
+        <a href={`${githubUrl}`}>
           <Button buttonSize='btn__link' buttonColor='red'>
             <FaGithub size='2em' />
           </Button>
         </a>
+        {url ? (
+          <a href={`${url}`}>
+            <Button buttonSize='btn__link' buttonColor='red'>
+              <CgScreen size='2em' />
+            </Button>
+          </a>
+        ) : null}
       </div>
     </div>
   )
