@@ -8,10 +8,11 @@ import { useGlobalContext } from '../context'
 
 function Footer() {
   const {
-    savedData: {
-      main: { social },
-    },
+    savedData: { main },
   } = useGlobalContext()
+
+  const { social } = main
+
   return (
     <IconContext.Provider value={{ color: '#fff' }}>
       <div className='footer__container'>
