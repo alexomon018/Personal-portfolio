@@ -10,7 +10,6 @@ function Footer() {
   const {
     savedData: { main },
   } = useGlobalContext()
-
   const { social } = main
 
   return (
