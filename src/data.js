@@ -35,8 +35,6 @@ export const homeObjThree = {
   headline: 'What people said about me',
   description: `"Aleksa's success in our courses should encourage him to continue to actively seek engagement in the IT industry, He has shown an amazing talent and will to become a software developer!" 
   "Oliver M. Vojinovic"`,
-  description2: `"Aleksa is the most dedicated person I have ever met he has finished his bachelor studies and in the same time he finished government backed course as one of the best students!" 
-  "Sasa Randjelovic"`,
   buttonLabel: 'Look More',
   buttonLink: '/testimonials',
   imgStart: 'start',

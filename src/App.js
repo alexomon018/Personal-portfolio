@@ -7,19 +7,21 @@ import About from './About/About'
 import { Switch, Route, Redirect } from 'react-router-dom'
 import Projects from './Projcets/Projects'
 import Contact from './Contact/Contact'
+import Testimonials from './Testimonials/Testimonials'
 
 function App() {
   return (
     <div className='app'>
       <Header />
-
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/about' exact component={About} />
         <Route path='/projects' exact component={Projects} />
         <Route path='/contact' exact component={Contact} />
+        <Route path='/testimonials' exact component={Testimonials} />
         <Route render={() => <Redirect to='/' />} />
       </Switch>
+
       <Footer />
     </div>
   )

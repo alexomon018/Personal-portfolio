@@ -49,17 +49,7 @@ function HeroSection({
                 >
                   {description}
                 </p>
-                {description2 ? (
-                  <p
-                    className={
-                      lightTextDesc
-                        ? 'home__hero-subtitle'
-                        : 'home__hero-subtitle dark'
-                    }
-                  >
-                    {description2}
-                  </p>
-                ) : null}
+
                 {buttonLink.includes('cv') ? (
                   <a href={`${buttonLink}`}>
                     <Button buttonSize='btn__wide' buttonColor='blue'>
