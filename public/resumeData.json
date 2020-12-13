@@ -141,27 +141,27 @@
     "projects": [
        {
         "title": "Baggy Shop",
-        "category": "Working on a full-stack MERN web application with full e-commerce functionality and my first time encounter with redux state management",
+        "category": "Working on a full-stack MERN web application with full e-commerce functionality and my first time encounter with redux state management.",
         "image": "images/portfolio/baggy-shop.jpg",
         "githubUrl": "https://github.com/alexomon018",
         "url": "https://baggyshopapp.herokuapp.com/"
       },
       {
         "title": "Covid Tracker",
-        "category": "COVID-19 Tracker with React JS (React Hooks and Material UI). Also I have used char.js for the charts",
+        "category": "COVID-19 Tracker with React (React Hooks and Material UI). Also I have used char.js for the charts and leaflet as the map.",
         "image": "images/portfolio/covid-tracker.jpg",
         "githubUrl": "https://github.com/alexomon018/Covid-Tracker",
         "url":"https://covid-numbers.netlify.app/"
       },
       {
         "title": "MERN Stack WhatsApp Clone",
-        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS) also I used Material UI and React Context Api.",
         "image": "images/portfolio/whatsapp-clone.jpg",
         "githubUrl": "https://github.com/alexomon018/Whatsapp-FullStack"
       },
          {
         "title": "Amazon Clone",
-        "category": "Amazon Clone made with React on the frontend,on the backend used express.js also has stripe payment method.",
+        "category": "Amazon Clone made with React on the frontend with fill basket functionalty,on the backend used express.js also has stripe payment method.",
         "image": "images/portfolio/amazon-clone.jpg",
         "githubUrl": "",
         "url": "https://clone-45f1e.web.app"
@@ -169,14 +169,14 @@
       
       {
         "title": "Airbnb Clone",
-        "category": "Using react-router and react-date-picker to make frontend booking application like airbnb.com",
+        "category": "Airbnb Clone built with React using react-router and react-date-picker to make frontend booking application like airbnb.com.",
         "image": "images/portfolio/airbnb-clone.jpg",
         "githubUrl": "https://github.com/alexomon018/Airbnb-Clone",
         "url": "https://airbnbsite.netlify.app/"
       },
       {
         "title": "Keeper Clone with React",
-        "category": "This is the first project that I have ever done in React as a part of a Web Development Course that I have took. Simple Google Keeper Clone built with ReactJS",
+        "category": "This is the first project that I have ever done in React as a part of a Web Development Course that I have took. Simple Google Keeper Clone built with React.",
         "image": "images/portfolio/keeper-app.jpg",
         "githubUrl": "https://github.com/alexomon018/Keeper-app"
       },
@@ -188,20 +188,20 @@
       },
       {
         "title": "Blog Site",
-        "category": "First project where I have created backend for my application, Blog website backed with express.js and ejs",
+        "category": "First project where I have created backend for my application, Blog website backed with express.js and ejs.",
         "image": "images/portfolio/blog-website.jpg",
         "githubUrl": "https://github.com/alexomon018/Blog-v1"
       },
       {
         "title": "TodoList",
-        "category": "TodoList website backed with express.js and ejs",
+        "category": "TodoList website backed with express.js and ejs.",
         "image": "images/portfolio/todolist-app.jpg",
         "githubUrl": "https://github.com/alexomon018/TodoList-version1"
       },
    
       {
         "title": "Secrets App",
-        "category": "Using Authentication to make Secrets App with OAuth and passport.js",
+        "category": "Using Authentication to make Secrets App with OAuth and passport.js.",
         "image": "images/portfolio/secrets-app2.jpg",
         "githubUrl": "https://github.com/alexomon018/Authentication"
       }

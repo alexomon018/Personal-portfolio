@@ -52,7 +52,7 @@ export const homeObjFour = {
   topLine: '',
   headline: 'Check out some of my works!',
   description:
-    'Get in touch with our Sales team and let them find the right solution for you..',
+    'I am always looking to enhance my skills and to work as much as I posible can.',
   buttonLabel: 'Find Out!',
   buttonLink: '/projects',
   imgStart: 'start',
