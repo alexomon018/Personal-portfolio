@@ -50,7 +50,7 @@ export const homeObjFour = {
   topLine: '',
   headline: 'Check out some of my works!',
   description:
-    'I am always looking to enhance my skills and to work as much as I posible can.',
+    'I am always looking to enhance my skills and to work as much as I possibly can.',
   buttonLabel: 'Find Out!',
   buttonLink: '/projects',
   imgStart: 'start',
