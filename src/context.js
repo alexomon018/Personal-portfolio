@@ -3,7 +3,7 @@ import useFetch from './useFetch'
 const AppContext = React.createContext()
 
 const AppProvider = ({ children }) => {
-  const { isLoading, error, data, savedData } = useFetch()
+  const { isLoading, data, savedData } = useFetch()
 
   return (
     <AppContext.Provider
@@ -11,7 +11,6 @@ const AppProvider = ({ children }) => {
         isLoading,
         data,
         savedData,
-        error,
       }}
     >
       {children}

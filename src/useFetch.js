@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
-const useFetch = (urlParams) => {
+const useFetch = () => {
   const [isLoading, setIsLoading] = useState(true)
-  const [error, setError] = useState({ show: false, msg: '' })
   const savedData = JSON.parse(localStorage.getItem('data'))
   const [data, setData] = useState(savedData || [])
 
@@ -10,12 +9,9 @@ const useFetch = (urlParams) => {
     try {
       const response = await fetch('/resumeData.json')
       const resumeData = await response.json()
-      if (data) {
+      if (resumeData) {
         setData(resumeData)
         localStorage.setItem('data', JSON.stringify(resumeData))
-        setError({ show: false, msg: '' })
-      } else {
-        setError({ show: true, msg: data.Error })
       }
       setIsLoading(false)
     } catch (error) {
@@ -28,7 +24,6 @@ const useFetch = (urlParams) => {
   }, [])
   return {
     isLoading,
-    error,
     data,
     savedData,
   }
