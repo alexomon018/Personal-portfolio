@@ -5,7 +5,7 @@ import Footer from './Footer/Footer'
 import Home from './Home/Home'
 import About from './About/About'
 import { Switch, Route, Redirect } from 'react-router-dom'
-import Projects from './Projcets/Projects'
+import Projects from './Projects/Projects'
 import Contact from './Contact/Contact'
 import Testimonials from './Testimonials/Testimonials'
 
