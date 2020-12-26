@@ -57,3 +57,7 @@ export const homeObjFour = {
   img: 'images/portfolio/covid-tracker.jpg',
   alt: 'Vault',
 }
+export const homeMetaObj = {
+  metaImg: 'images/linkimg.jpg',
+  imageAlt: 'the image contains the logo of this webiste.',
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import './Projects.css'
 import Project from './Project'
 import Meta from '../Meta/Meta'
+import { homeMetaObj } from '../data'
 import { useGlobalContext } from '../context'
 function Projects(props) {
   const {
@@ -11,7 +12,12 @@ function Projects(props) {
   } = useGlobalContext()
   return (
     <>
-      <Meta title='Aleksa Mitic | Projects ' />
+      <Meta
+        title='Aleksa Mitic - Projcets'
+        description='Hey, this is my personal website. You can take a look at my portfolio, download my CV and see how you can contact me!'
+        imageUrl={homeMetaObj.metaImg}
+        imageAlt={homeMetaObj.imageAlt}
+      />
       <section className='section__projects'>
         <div className='section__projects__title'>
           <h2>Projects</h2>

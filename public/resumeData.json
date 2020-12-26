@@ -17,6 +17,7 @@
     },
     "website": "",
     "resumedownload": "https://cvdesignr.com/p/5e12805cf121f?hl=en_GB",
+
     "social": [
       {
         "name": "facebook",
@@ -162,9 +163,16 @@
          {
         "title": "Amazon Clone",
         "category": "Amazon Clone made with React on the frontend with fill basket functionalty,on the backend used express.js also has stripe payment method.",
-        "image": "images/portfolio/amazon-clone.jpg",
-        "githubUrl": "",
+        "image": "images/portfolio/linkedIn-clone.jpg",
+        "githubUrl": "https://github.com/alexomon018/Amazon-Clone",
         "url": "https://clone-45f1e.web.app"
+      },
+         {
+        "title": "LinkedIn Clone",
+        "category": "LinkedIn Clone made with React still in progress (using ContextAPI and useReducer) ",
+        "image": "images/portfolio/amazon-clone.jpg",
+        "githubUrl": "https://github.com/alexomon018/LinkedIn-Clone",
+        "url": "https://linkedin-clone-660ec.web.app"
       },
       
       {
