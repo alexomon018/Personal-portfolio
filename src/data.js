@@ -58,6 +58,6 @@ export const homeObjFour = {
   alt: 'Vault',
 }
 export const homeMetaObj = {
-  metaImg: 'images/linkimg.jpg',
+  metaImg: '/images/linkimg.jpg',
   imageAlt: 'the image contains the logo of this webiste.',
 }
