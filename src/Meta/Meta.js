@@ -21,7 +21,7 @@ function Meta({ title, description, imageUrl, imageAlt }) {
       />
       <meta name='twitter:card' content='summary_large_image' />
 
-      <meta property='og:site_name' content='European Travel, Inc.' />
+      <meta property='og:site_name' content='Alex ,Inc.' />
       <meta name='twitter:image:alt' content={imageAlt} />
     </Helmet>
   )
