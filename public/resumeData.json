@@ -183,12 +183,6 @@
         "url": "https://airbnbsite.netlify.app/"
       },
       {
-        "title": "Keeper Clone with React",
-        "category": "This is the first project that I have ever done in React as a part of a Web Development Course that I have took. Simple Google Keeper Clone built with React.",
-        "image": "images/portfolio/keeper-app.jpg",
-        "githubUrl": "https://github.com/alexomon018/Keeper-app"
-      },
-      {
         "title": "Zoom Clone",
         "category": "It uses uuid to make new links so if user want to communicate he/she can send that unique link to ones whom to communicate. It makes separate rooms on the basis of unique links.",
         "image": "images/portfolio/zoom-clone.jpg",
