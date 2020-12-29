@@ -12,7 +12,7 @@ function Meta({ title, description, imageUrl, imageAlt }) {
       <meta name='description' content={description} />
       <meta
         name='keywords'
-        content='HTML, CSS, JAVASCRIPT, JS ,WEB DEVELOPMENT, REACT, PORTFOLIO, Aleksa Mitic'
+        content=' Aleksa Mitic HTML, CSS, JAVASCRIPT, JS ,WEB DEVELOPMENT, REACT, PORTFOLIO, Aleksa Mitic'
       />
       <meta property='og:image' content={metaDecorator.hostname + imageUrl} />
       <meta
@@ -25,7 +25,7 @@ function Meta({ title, description, imageUrl, imageAlt }) {
       />
       <meta name='twitter:card' content='summary_large_image' />
 
-      <meta property='og:site_name' content='Alex ,Inc.' />
+      <meta property='og:site_name' content='Aleksa Mitic ,Inc.' />
       <meta name='twitter:image:alt' content={imageAlt} />
       <meta name='author' content='Aleksa Mitic' />
     </Helmet>

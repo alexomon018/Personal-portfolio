@@ -14,7 +14,7 @@ function Home() {
     <>
       <Meta
         title='Aleksa Mitic Portfolio - Home'
-        description='Hey, this is my personal website. You can take a look at my portfolio, download my CV and see how you can contact me! '
+        description='Hey my name is Aleksa Mitic, this is my personal website. You can take a look at my portfolio, download my CV and see how you can contact me! '
         imageUrl={homeMetaObj.metaImg}
         imageAlt={homeMetaObj.imageAlt}
       />

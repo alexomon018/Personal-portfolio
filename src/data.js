@@ -2,15 +2,15 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Aleksa Mitic',
-  headline: 'Freelance Web developer  && English Teacher at iTutor',
-  description: 'Graduate Engineer of Engineering Management',
+  topLine: 'Aleksa Mitic - Portfolio',
+  headline: 'I make things!',
+  description: 'Web Developer && Graduate Engineer of Engineering Management',
   buttonLabel: 'Download Resume',
   buttonLink: 'https://cvdesignr.com/p/5e12805cf121f?hl=en_GB',
   imgStart: '',
   img: '',
   backgroundImg: 'images/background-image.jpg',
-  alt: 'Portfolio Photo',
+  alt: 'Portfolio Photo Aleksa Mitic',
 }
 export const homeObjTwo = {
   lightBg: false,
@@ -24,7 +24,7 @@ export const homeObjTwo = {
   backgroundImg: '',
   imgStart: '',
   img: '/images/aleksa.jpg',
-  alt: 'Vault',
+  alt: 'Aleksa Mitic',
 }
 
 export const homeObjThree = {
@@ -40,7 +40,7 @@ export const homeObjThree = {
   imgStart: 'start',
   backgroundImg: 'images/testimonialsjpg.png',
   img: '',
-  alt: 'Vault',
+  alt: 'Aleksa Mitic',
 }
 
 export const homeObjFour = {
@@ -55,9 +55,10 @@ export const homeObjFour = {
   buttonLink: '/projects',
   imgStart: 'start',
   img: 'images/portfolio/covid-tracker.jpg',
-  alt: 'Vault',
+  alt: 'Aleksa Mitic Covid Tracker',
 }
 export const homeMetaObj = {
   metaImg: '/images/linkimg.jpg',
-  imageAlt: 'the image contains the logo of this webiste.',
+  imageAlt:
+    'the image contains the logo of this webiste in the ownership of Aleksa Mitic.',
 }
