@@ -26,6 +26,7 @@ function Footer() {
                 href='https://www.facebook.com/alexa.mitic/'
                 target='_blank'
                 aria-label='Facebook'
+                rel='noreferrer'
               >
                 <FaFacebook size='2em' />
               </a>
@@ -34,6 +35,7 @@ function Footer() {
                 href='https://www.instagram.com/mitic_aleksa/'
                 target='_blank'
                 aria-label='Instagram'
+                rel='noreferrer'
               >
                 <FaInstagram size='2em' />
               </a>
@@ -41,6 +43,7 @@ function Footer() {
                 className='social__icon__link'
                 href='https://github.com/alexomon018'
                 target='_blank'
+                rel='noreferrer'
                 aria-label='GitHub'
               >
                 <FaGithub size='2em' />
@@ -49,6 +52,7 @@ function Footer() {
                 className='social__icon__link'
                 href='https://www.linkedin.com/in/aleksa-miticw/'
                 target='_blank'
+                rel='noreferrer'
                 aria-label='LinkedIn'
               >
                 <FaLinkedin size='2em' />

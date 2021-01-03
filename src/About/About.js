@@ -20,7 +20,11 @@ function About() {
       <section className='section__about'>
         <div className='section__center about__center'>
           <article className='about__img'>
-            <img src={main.image} className='hero__photo' alt='about img' />
+            <img
+              src={main.image}
+              className='hero__photo'
+              alt='Aleksa Mitic about img'
+            />
           </article>
 
           <article className='about__info'>

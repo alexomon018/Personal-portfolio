@@ -4,10 +4,11 @@ import Header from './Header/Header'
 import Footer from './Footer/Footer'
 import Home from './Home/Home'
 import About from './About/About'
-import { Switch, Route, Redirect } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 import Projects from './Projects/Projects'
 import Contact from './Contact/Contact'
 import Testimonials from './Testimonials/Testimonials'
+import NotFound from './NotFound/NotFound'
 
 function App() {
   return (
@@ -19,9 +20,8 @@ function App() {
         <Route path='/projects' exact component={Projects} />
         <Route path='/contact' exact component={Contact} />
         <Route path='/testimonials' exact component={Testimonials} />
-        <Route render={() => <Redirect to='/' />} />
+        <Route path='*' component={NotFound} />
       </Switch>
-
       <Footer />
     </div>
   )
