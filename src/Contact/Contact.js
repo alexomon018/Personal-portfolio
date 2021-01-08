@@ -22,7 +22,7 @@ function Contact() {
           Sorry, your browser does not support embedded videos
         </video>
         <div className='video__banner'>
-          <div className='section__title'>
+          <div className='section__contact__title'>
             <h2>let's get in touch</h2>
             <div className='underline'></div>
           </div>

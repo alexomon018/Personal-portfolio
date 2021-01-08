@@ -20,7 +20,11 @@ function HeroSection({
       <div
         className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}
         style={{
-          backgroundImage: `url('${backgroundImg}')`,
+          backgroundImage: `${
+            description[0] === 'W'
+              ? `linear-gradient(to left,rgb(28 34 55/ 40%),rgb(140,140,140)),url('${backgroundImg}')`
+              : `url('${backgroundImg}')`
+          }`,
         }}
       >
         <div className='container'>

@@ -15,7 +15,7 @@ export const homeObjOne = {
 export const homeObjTwo = {
   lightBg: false,
   lightText: true,
-  lightTextDesc: true,
+  lightTextDesc: false,
   topLine: 'About',
   headline: 'Who am I?',
   description: `Since being introduced to programming by a close friend I have read through as much material one can possibly go through,took a good amount of Udemy courses, and also enrolled into a government backed course classes at Faculty Of Electronic Engineering in Nis as a part of Junior Developer... `,
@@ -28,7 +28,7 @@ export const homeObjTwo = {
 }
 
 export const homeObjThree = {
-  lightBg: true,
+  lightBg: false,
   lightText: false,
   lightTextDesc: false,
   topLine: 'Testimonials',

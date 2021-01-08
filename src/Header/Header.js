@@ -32,15 +32,7 @@ function Header() {
                 About
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/contact'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Contact
-              </Link>
-            </li>
+
             <li className='nav-item'>
               <Link
                 to='/projects'
@@ -48,6 +40,15 @@ function Header() {
                 onClick={closeMobileMenu}
               >
                 Projects
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/contact'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Contact
               </Link>
             </li>
           </ul>

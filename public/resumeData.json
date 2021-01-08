@@ -102,14 +102,9 @@
         "category":"Front"
       },
       {
-        "name": "Git",
-        "level": "80%",
-        "category":"Front"
-      },
-      {
         "name": "C#",
         "level": "70%",
-        "category":"Front"
+        "category":"Back"
       },
       {
         "name": "HTML5",

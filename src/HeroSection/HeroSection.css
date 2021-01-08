@@ -1,13 +1,9 @@
 .home__hero-section {
   color: #fff;
   padding: 90px 0;
-  background-repeat: no-repeat;
   background-position: center;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
-  width: 100%;
 }
 
 .home__hero-row {
@@ -57,9 +53,11 @@
 }
 
 .dark {
-  color: #1c2237;
+  color: black;
 }
-
+.light {
+  color: white;
+}
 .darkBg {
   background-color: #1c2237;
 }
@@ -69,7 +67,9 @@
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  font-weight: 700;
+}
+.dark {
+  color: black;
 }
 
 .home__hero-img-wrapper {

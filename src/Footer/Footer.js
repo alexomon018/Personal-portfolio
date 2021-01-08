@@ -1,9 +1,7 @@
 import React from 'react'
 import './Footer.css'
-import { Link } from 'react-router-dom'
 import { IconContext } from 'react-icons/lib'
 import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'
-import { MdDeveloperMode } from 'react-icons/md'
 
 function Footer() {
   return (
@@ -11,12 +9,6 @@ function Footer() {
       <div className='footer__container'>
         <div className='social__media'>
           <div className='social__media__wrap'>
-            <div className='footer__logo'>
-              <Link to='/' className='social__logo'>
-                <MdDeveloperMode className='navbar__icon' />
-                ALEKSA MITIC
-              </Link>
-            </div>
             <small className='website__rights'>
               ALEKSA MITIC © {new Date().getFullYear()}
             </small>

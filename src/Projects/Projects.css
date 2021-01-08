@@ -43,8 +43,8 @@
 }
 .card__back {
   background: hsl(45, 100%, 96%);
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
   display: grid;
   place-items: center;
 }
@@ -52,8 +52,8 @@
   padding: 1rem 1.5rem;
 }
 .card:hover .card__front {
-  -webkit-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 .card:hover .card__back {
   -webkit-transform: rotateY(0);

@@ -24,8 +24,7 @@
 }
 
 .about__center {
-  display: grid;
-  gap: 3rem 2rem;
+  display: flex;
 }
 .about__img {
   justify-self: center;
