@@ -17,16 +17,13 @@ function About() {
         imageUrl={homeMetaObj.metaImg}
         imageAlt={homeMetaObj.imageAlt}
       />
-      <section className='section__about'>
+      <section
+        className='section__about'
+        style={{
+          backgroundImage: `url('${main.backgroundImgAbout}')`,
+        }}
+      >
         <div className='section__center about__center'>
-          <article className='about__img'>
-            <img
-              src={main.image}
-              className='hero__photo'
-              alt='Aleksa Mitic about img'
-            />
-          </article>
-
           <article className='about__info'>
             <div className='section__title about__title'>
               <h2>About</h2>

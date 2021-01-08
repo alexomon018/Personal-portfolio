@@ -1,9 +1,13 @@
 .home__hero-section {
   color: #fff;
-  padding: 160px 0;
-  background-position: center;
+  padding: 90px 0;
   background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .home__hero-row {
@@ -38,7 +42,7 @@
   color: #f00946;
   font-size: 16px;
   line-height: 16px;
-  font-weight: 700;
+  font-weight: 300;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
@@ -48,7 +52,7 @@
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;
-  font-weight: 600;
+  font-weight: 300;
   color: #f7f8fa;
 }
 
@@ -65,6 +69,7 @@
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
+  font-weight: 700;
 }
 
 .home__hero-img-wrapper {

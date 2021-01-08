@@ -49,7 +49,11 @@ function HeroSection({
 
                 {buttonLink.includes('cv') ? (
                   <a href={`${buttonLink}`}>
-                    <Button buttonSize='btn__wide' buttonColor='blue'>
+                    <Button
+                      buttonSize='btn__wide'
+                      buttonColor='blue'
+                      buttonStyle='btn__primary'
+                    >
                       {buttonLabel}
                     </Button>
                   </a>

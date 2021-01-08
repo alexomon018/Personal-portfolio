@@ -1,7 +1,7 @@
 export const homeObjOne = {
   lightBg: false,
   lightText: true,
-  lightTextDesc: true,
+  lightTextDesc: false,
   topLine: 'Aleksa Mitic - Portfolio',
   headline: 'I make things!',
   description: 'Web Developer && Graduate Engineer of Engineering Management',
@@ -29,7 +29,7 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
   lightBg: true,
-  lightText: true,
+  lightText: false,
   lightTextDesc: false,
   topLine: 'Testimonials',
   headline: 'What people said about me',
@@ -38,7 +38,7 @@ export const homeObjThree = {
   buttonLabel: 'Look More',
   buttonLink: '/testimonials',
   imgStart: 'start',
-  backgroundImg: 'images/testimonialsjpg.png',
+  backgroundImg: 'images/testimonialsjpg.jpg',
   img: '',
   alt: 'Aleksa Mitic',
 }

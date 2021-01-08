@@ -1,13 +1,19 @@
 .section__about {
   padding: 5rem 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 .about__title {
   text-align: left;
   margin-bottom: 2rem;
 }
-.about__title .underline {
-  margin-left: 0;
-}
+
 .about__title > h2 {
   color: white;
 }

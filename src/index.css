@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
 * {
   margin: 0;
 }
 
 body {
   margin: 0px;
-  font-family: 'Roboto', 'serif';
+  font-family: 'Spartan', 'sans-serif';
   background-color: #0e1112;
 }
 
@@ -12,11 +13,10 @@ h1,
 h2,
 h3,
 h4 {
-  letter-spacing: 4px;
+  letter-spacing: 1.6px;
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 12px;
-  font-family: 'Roboto', sans-serif;
 }
 h1 {
   font-size: 48px;
@@ -32,8 +32,6 @@ h4 {
 }
 .btn {
   text-transform: uppercase;
-  background: hsl(42, 78%, 60%);
-  color: hsl(43, 86%, 17%);
   padding: 6px 12px;
   letter-spacing: 0.5px;
   display: inline-block;
@@ -57,6 +55,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
+  letter-spacing: 1.6px;
   color: hsl(210, 22%, 49%);
 }
 @media screen and (min-width: 800px) {
