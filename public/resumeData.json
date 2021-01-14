@@ -5,7 +5,7 @@
     "description": "Graduate Engineer of Engineering Management",
     "image": "images/aleksa.jpg",
     "backgroundImg":"images/background-image.jpg",
-    "bio": "Since being introduced to programming by a close friend I have read through as much material one can possibly go through,took a good amount of Udemy courses, and also enrolled into a government backed course classes at Faculty Of Electronic Engineering in Nis as a part of Junior Developer program. From the moment I created Hello World in the console of my first application, I knew I was hooked onto software development. But software development has never been just a job for me, it's offered an engaging challenge to continually learn and improve my skills in creating high-quality software. What started with a simple Hello World has become a full-fledged passion that only gets more exciting as time goes by. ",
+    "bio": "Since being introduced to programming by a close friend I have read through as much material one can possibly go through,took a good amount of Udemy courses, and also enrolled into a government backed course classes at Faculty Of Electronic Engineering in Nis as a part of Junior Developer program. I also indulge myself in competitive programming thus sharpening my problem solving skills to apply in real life situations for quick and optimised solutions ",
     "contactmessage": "Contact details",
     "email": "aleksa.mitic5859@gmail.com",
     "phone": "+381652854216",
@@ -149,12 +149,6 @@
         "githubUrl": "https://github.com/alexomon018/Covid-Tracker",
         "url":"https://covid-numbers.netlify.app/"
       },
-      {
-        "title": "MERN Stack WhatsApp Clone",
-        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS) also I used Material UI and React Context Api.",
-        "image": "images/portfolio/whatsapp-clone.jpg",
-        "githubUrl": "https://github.com/alexomon018/Whatsapp-FullStack"
-      },
          {
         "title": "Amazon Clone",
         "category": "Amazon Clone made with React on the frontend with fill basket functionalty,on the backend used express.js also has stripe payment method.",
@@ -162,7 +156,7 @@
         "githubUrl": "https://github.com/alexomon018/Amazon-Clone",
         "url": "https://clone-45f1e.web.app"
       },
-         {
+       {
 
         "title": "LinkedIn Clone",
         "category": "LinkedIn Clone made with React still in progress (using ContextAPI and useReducer) ",
@@ -170,33 +164,6 @@
         "githubUrl": "https://github.com/alexomon018/LinkedIn-Clone",
         "url": "https://linkedin-clone-660ec.web.app"
       },
-      
-      {
-        "title": "Airbnb Clone",
-        "category": "Airbnb Clone built with React using react-router and react-date-picker to make frontend booking application like airbnb.com.",
-        "image": "images/portfolio/airbnb-clone.jpg",
-        "githubUrl": "https://github.com/alexomon018/Airbnb-Clone",
-        "url": "https://airbnbsite.netlify.app/"
-      },
-      {
-        "title": "Zoom Clone",
-        "category": "It uses uuid to make new links so if user want to communicate he/she can send that unique link to ones whom to communicate. It makes separate rooms on the basis of unique links.",
-        "image": "images/portfolio/zoom-clone.jpg",
-        "githubUrl": "https://github.com/alexomon018/ZoomApp"
-      },
-      {
-        "title": "Blog Site",
-        "category": "First project where I have created backend for my application, Blog website backed with express.js and ejs.",
-        "image": "images/portfolio/blog-website.jpg",
-        "githubUrl": "https://github.com/alexomon018/Blog-v1"
-      },
-      {
-        "title": "TodoList",
-        "category": "TodoList website backed with express.js and ejs.",
-        "image": "images/portfolio/todolist-app.jpg",
-        "githubUrl": "https://github.com/alexomon018/TodoList-version1"
-      },
-   
       {
         "title": "Secrets App",
         "category": "Using Authentication to make Secrets App with OAuth and passport.js.",
