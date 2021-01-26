@@ -149,13 +149,6 @@
         "githubUrl": "https://github.com/alexomon018/Covid-Tracker",
         "url":"https://covid-numbers.netlify.app/"
       },
-         {
-        "title": "Amazon Clone",
-        "category": "Amazon Clone made with React on the frontend with fill basket functionalty,on the backend used express.js also has stripe payment method.",
-        "image": "images/portfolio/amazon-clone.jpg",
-        "githubUrl": "https://github.com/alexomon018/Amazon-Clone",
-        "url": "https://clone-45f1e.web.app"
-      },
        {
 
         "title": "LinkedIn Clone",
@@ -165,10 +158,10 @@
         "url": "https://linkedin-clone-660ec.web.app"
       },
       {
-        "title": "Secrets App",
-        "category": "Using Authentication to make Secrets App with OAuth and passport.js.",
-        "image": "images/portfolio/secrets-app2.jpg",
-        "githubUrl": "https://github.com/alexomon018/Authentication"
+        "title": "Wototeka (Development)",
+        "category": "Currently working on a website that will show players statistics from the World of Tanks game.",
+        "image": "images/portfolio/wototeka(development).jpg",
+        "githubUrl": "https://github.com/alexomon018/Wototeka"
       }
     ]
   },
