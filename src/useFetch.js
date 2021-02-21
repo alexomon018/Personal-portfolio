@@ -4,7 +4,7 @@ const useFetch = () => {
   const savedData = JSON.parse(localStorage.getItem('data'))
   const [data, setData] = useState(savedData || [])
 
-  const fetchMovies = async () => {
+  const fetchData = async () => {
     setIsLoading(true)
     try {
       const response = await fetch('/resumeData.json')
@@ -20,7 +20,7 @@ const useFetch = () => {
   }
 
   useEffect(() => {
-    fetchMovies()
+    fetchData()
   }, [])
   return {
     isLoading,
