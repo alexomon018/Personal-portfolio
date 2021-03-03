@@ -8,7 +8,7 @@
 
 <div align="center">
   <h30>
-    <a href="aleksamitic.com">
+    <a href="https://aleksamitic.com/">
       Demo
     </a>
     </h30>
@@ -34,13 +34,13 @@ _DesktopView_
 
 _MobileView_
 
-![screenshot mobile](./public/images/aleksamitic.com_mobile.png?raw=true)
+![screenshot mobile](./public/images/aleksamitic.com_mobile.png?raw=true){ width=50% }
 
 Introducation, a story about the project.
 
 - Where can I see your demo?
 
-  <a href="aleksamitic.com">
+  <a  href="https://aleksamitic.com/">
     Demo
   </a>
 
@@ -68,5 +68,4 @@ I am simulating request from the server and successfully passing data to each co
 
 ## Contact
 
-- GitHub [@DavNt](https://github.com/alexomon018)
-- Twitter [@DavNtM](https://twitter.com/alexomon018)
+- GitHub [@alexomon018](https://github.com/alexomon018)
