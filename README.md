@@ -34,7 +34,7 @@ _DesktopView_
 
 _MobileView_
 
-![screenshot mobile](./public/images/aleksamitic.com_mobile.png?raw=true){ width=50% }
+![screenshot mobile](./public/images/aleksamitic.com_mobile.png?raw=true){: width=50%}
 
 Introducation, a story about the project.
 
