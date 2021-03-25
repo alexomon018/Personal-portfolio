@@ -4,12 +4,6 @@
   max-width: 1170px;
 }
 
-@media screen and (min-width: 992px) {
-  .section__testimonials {
-    width: 95vw;
-  }
-}
-
 .section__testimonials__title {
   text-align: center;
   margin-bottom: 2rem;
@@ -68,7 +62,7 @@
 .icon {
   font-size: 3rem;
   margin-top: 1rem;
-  color: #f00946;
+  color: #276afb;
 }
 .prev,
 .next {
@@ -89,7 +83,7 @@
 }
 .prev:hover,
 .next:hover {
-  background: #f00946;
+  background: lightblue;
 }
 .prev {
   left: 0;

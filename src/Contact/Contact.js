@@ -37,7 +37,7 @@ function Contact() {
             <span>{main.phone}</span>
           </p>
           <a href='mailto:aleksa.mitic5859@gmail.com'>
-            <Button buttonSize='btn__mobile' buttonColor='red'>
+            <Button buttonSize='btn__wide' buttonColor='blue'>
               Email Me
             </Button>
           </a>

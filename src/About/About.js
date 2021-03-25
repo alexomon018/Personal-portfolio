@@ -27,7 +27,6 @@ function About() {
           <article className='about__info'>
             <div className='section__title about__title'>
               <h2>About</h2>
-              <div className='underline'></div>
             </div>
             <p>{main.bio}</p>
           </article>

@@ -19,12 +19,14 @@ function Project({ project }) {
         <a href={`${githubUrl}`}>
           <Button buttonSize='btn__link' buttonColor='red'>
             <FaGithub size='2em' />
+            Github
           </Button>
         </a>
         {url ? (
           <a href={`${url}`}>
             <Button buttonSize='btn__link' buttonColor='red'>
               <CgScreen size='2em' />
+              Live Site
             </Button>
           </a>
         ) : null}
